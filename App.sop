@@ -1,0 +1,11 @@
+// Test object with array
+shey team = {
+    members: [
+        {name: "Ali", role: "Developer"},
+        {name: "Fatima", role: "Designer"}
+    ]
+}
+
+// Access array elements in object
+qor("  First team member: " + team.members[0].name)
+qor("  Second team member role: " + team.members[1].role)
